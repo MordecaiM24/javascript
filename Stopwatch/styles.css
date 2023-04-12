@@ -1,0 +1,44 @@
+body {
+    background-color: orange;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-name {
+    font-size: 8vw;
+}
+
+.description {
+    font-size: 5vw;
+}
+
+.time {
+    font-size: 5vw;
+}
+
+.button-container {
+    margin-top: 24px;
+    width: 75vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 1px white;
+    color: white;
+    padding: 12px 48px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 201, 101);
+}
+
+button:active {
+    background-color: rgb(255, 227, 176);
+}
