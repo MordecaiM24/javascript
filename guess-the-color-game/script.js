@@ -23,9 +23,17 @@ for(let i = 0; i < 3; i++) {
  //*/
 
 
-
 colors[correctBlock].style.backgroundColor = `rgb(${targetColor[0]}, ${targetColor[1]}, ${targetColor[2]})`
 
 
 targetColorEl.textContent = `RGB(${targetColor[0]}, ${targetColor[1]}, ${targetColor[2]})`;
 
+colors[correctBlock].addEventListener('click', function (event) {
+  alert(event);
+})
+
+
+function pickColor() {
+  let el = event.target;
+  el.style.backgroundColor = red;
+}
