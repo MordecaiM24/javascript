@@ -54,7 +54,13 @@ body {
 }
 
 .color {
-  background-color: blue;
+  height: 200px;
+  width: 200px;
+  border: none;
+  border-radius: 20%;
+}
+
+#correct-block {
   height: 200px;
   width: 200px;
   border: none;
