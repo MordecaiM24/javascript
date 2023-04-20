@@ -15,7 +15,8 @@ body {
 
 .catalogue-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
   background-color:rgb(226, 226, 226);
   grid-gap: 1px;
 }
