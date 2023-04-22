@@ -22,7 +22,7 @@ body {
 }
 
 .product-box {
-  padding: 24px;
+  padding:  40px 22px;
   background-color: white;
 }
 
@@ -31,6 +31,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 180px;
+  margin-bottom: 12px;
 }
 
 .product-img {
@@ -39,16 +40,27 @@ body {
   max-width: 100%;
 }
 
+.rating-container {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+}
+
 .stars-img {
-  width: 35%;
+  width: 50%;
 }
 
 .num-ratings {
   color: rgb(37, 142, 207);
+  font-size: 16px;
+  padding-top: 4px;
+  padding-left: 8px;
 }
 
 .price {
   font-weight: 700;
+  margin-bottom: 12px;
 }
 
 select {
@@ -69,6 +81,13 @@ select {
   padding-top: 8px;
   padding-bottom: 8px;
   border-radius: 100px;
-  margin-top: 48px;
+  margin-top: 56px;
   cursor: pointer;
+}
+
+.product-description {
+  margin-top: 12px;
+  line-height: 1.5em;
+  height: 3em;
+  overflow: hidden;
 }
